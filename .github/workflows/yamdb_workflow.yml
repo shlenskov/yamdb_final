@@ -61,7 +61,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: shlenskovvv/yamdb:latest
+          tags: shlenskovvv/yamdbf:latest
 
   deploy:
     runs-on: ubuntu-latest
