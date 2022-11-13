@@ -4,8 +4,7 @@ from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 from rest_framework.relations import SlugRelatedField
 from rest_framework.validators import UniqueValidator
-
-from core.validators import UserRegexValidator, validate_username
+from core.validators import validate_username, UserRegexValidator
 from reviews.models import Category, Comment, Genre, Review, Title
 from users.models import User
 
