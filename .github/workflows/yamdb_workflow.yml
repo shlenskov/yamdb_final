@@ -37,4 +37,4 @@ jobs:
         #<корневая_папка_infra_actions>/<папка_проекта>/manage.py
         cd api_yamdb/
         # запустить написанные разработчиком тестs
-        python manage.py test
+        python3 manage.py test
